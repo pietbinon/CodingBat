@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7729659D1E427E2100B57C43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7729659C1E427E2100B57C43 /* main.m */; };
+		772965A51E427E3800B57C43 /* SleepIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 772965A41E427E3800B57C43 /* SleepIn.m */; };
+		772965A81E4285D700B57C43 /* MonkeyTrouble.m in Sources */ = {isa = PBXBuildFile; fileRef = 772965A71E4285D700B57C43 /* MonkeyTrouble.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		772965991E427E2100B57C43 /* CodingBat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingBat; sourceTree = BUILT_PRODUCTS_DIR; };
 		7729659C1E427E2100B57C43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		772965A31E427E3800B57C43 /* SleepIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepIn.h; sourceTree = "<group>"; };
+		772965A41E427E3800B57C43 /* SleepIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepIn.m; sourceTree = "<group>"; };
+		772965A61E4285D700B57C43 /* MonkeyTrouble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonkeyTrouble.h; sourceTree = "<group>"; };
+		772965A71E4285D700B57C43 /* MonkeyTrouble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonkeyTrouble.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				7729659C1E427E2100B57C43 /* main.m */,
+				772965A31E427E3800B57C43 /* SleepIn.h */,
+				772965A41E427E3800B57C43 /* SleepIn.m */,
+				772965A61E4285D700B57C43 /* MonkeyTrouble.h */,
+				772965A71E4285D700B57C43 /* MonkeyTrouble.m */,
 			);
 			path = CodingBat;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772965A51E427E3800B57C43 /* SleepIn.m in Sources */,
 				7729659D1E427E2100B57C43 /* main.m in Sources */,
+				772965A81E4285D700B57C43 /* MonkeyTrouble.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
