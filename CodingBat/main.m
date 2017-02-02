@@ -11,6 +11,8 @@
 #import "MonkeyTrouble.h"
 #import "StringTimes.h"
 #import "FirstLast6.h"
+#import "SameFirstLast.h"
+
 
 
 
@@ -77,6 +79,28 @@ int main(int argc, const char * argv[]) {
         NSArray *array3 = @[@"3", @"2", @"7", @"4", @"9", @"6"];
         BOOL resultFirstLast63 = [firstLast63 firstLast6: array3];
         NSLog (@"%@", resultFirstLast63 ? @"YES" : @"NO");
+        
+        
+        SameFirstLast *sameFirstLast1 = [[SameFirstLast alloc] init];
+        NSArray *arraySameFirstLast1 = @[@"1", @"2", @"3", @"4", @"5", @"6"];
+        BOOL resultSameFirstLast1 = [sameFirstLast1 sameFirstLast: arraySameFirstLast1];
+        NSLog (@"---SAME FIRST LAST---");
+        NSLog (@"%@", resultSameFirstLast1 ? @"YES" : @"NO");
+        
+        SameFirstLast *sameFirstLast2 = [[SameFirstLast alloc] init];
+        NSArray *arraySameFirstLast2 = @[@"1", @"2", @"3", @"4", @"5", @"1"];
+        BOOL resultSameFirstLast2 = [sameFirstLast2 sameFirstLast: arraySameFirstLast2];
+        NSLog (@"%@", resultSameFirstLast2 ? @"YES" : @"NO");
+        
+        SameFirstLast *sameFirstLast3 = [[SameFirstLast alloc] init];
+        NSArray *arraySameFirstLast3 = @[@"1", @"2", @"3", @"4", @"5", @"6", @"1"];
+        BOOL resultSameFirstLast3 = [sameFirstLast3 sameFirstLast: arraySameFirstLast3];
+        NSLog (@"%@", resultSameFirstLast3 ? @"YES" : @"NO");
+        
+        SameFirstLast *sameFirstLast4 = [[SameFirstLast alloc] init];
+        NSArray *arraySameFirstLast4 = [[NSArray alloc] init];
+        BOOL resultSameFirstLast4 = [sameFirstLast4 sameFirstLast: arraySameFirstLast4];
+        NSLog (@"%@", resultSameFirstLast4 ? @"YES" : @"NO");
     }
     
     return 0;
