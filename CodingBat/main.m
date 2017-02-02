@@ -10,6 +10,7 @@
 #import "SleepIn.h"
 #import "MonkeyTrouble.h"
 #import "StringTimes.h"
+#import "FirstLast6.h"
 
 
 
@@ -59,6 +60,23 @@ int main(int argc, const char * argv[]) {
         StringTimes *stringTimes3 = [[StringTimes alloc] init];
         NSString *resultStringTimes3 = [stringTimes3 stringTimes: @"Hi" : 1];
         NSLog (@"%@", resultStringTimes3);
+        
+        
+        FirstLast6 *firstLast61 = [[FirstLast6 alloc] init];
+        NSArray *array1 = @[@"6", @"2", @"7", @"4", @"9", @"3"];
+        BOOL resultFirstLast61 = [firstLast61 firstLast6: array1];
+        NSLog (@"---FIRST LAST 6---");
+        NSLog (@"%@", resultFirstLast61 ? @"YES" : @"NO");
+        
+        FirstLast6 *firstLast62 = [[FirstLast6 alloc] init];
+        NSArray *array2 = @[@"2", @"6", @"7", @"4", @"9", @"3"];
+        BOOL resultFirstLast62 = [firstLast62 firstLast6: array2];
+        NSLog (@"%@", resultFirstLast62 ? @"YES" : @"NO");
+        
+        FirstLast6 *firstLast63 = [[FirstLast6 alloc] init];
+        NSArray *array3 = @[@"3", @"2", @"7", @"4", @"9", @"6"];
+        BOOL resultFirstLast63 = [firstLast63 firstLast6: array3];
+        NSLog (@"%@", resultFirstLast63 ? @"YES" : @"NO");
     }
     
     return 0;

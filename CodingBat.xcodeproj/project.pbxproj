@@ -11,6 +11,7 @@
 		772965A51E427E3800B57C43 /* SleepIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 772965A41E427E3800B57C43 /* SleepIn.m */; };
 		772965A81E4285D700B57C43 /* MonkeyTrouble.m in Sources */ = {isa = PBXBuildFile; fileRef = 772965A71E4285D700B57C43 /* MonkeyTrouble.m */; };
 		7784CF371E43945400F45998 /* StringTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784CF361E43945400F45998 /* StringTimes.m */; };
+		7784CF3A1E439D4900F45998 /* FirstLast6.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784CF391E439D4900F45998 /* FirstLast6.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		772965A71E4285D700B57C43 /* MonkeyTrouble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonkeyTrouble.m; sourceTree = "<group>"; };
 		7784CF351E43945400F45998 /* StringTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringTimes.h; sourceTree = "<group>"; };
 		7784CF361E43945400F45998 /* StringTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringTimes.m; sourceTree = "<group>"; };
+		7784CF381E439D4900F45998 /* FirstLast6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLast6.h; sourceTree = "<group>"; };
+		7784CF391E439D4900F45998 /* FirstLast6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLast6.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				772965A71E4285D700B57C43 /* MonkeyTrouble.m */,
 				7784CF351E43945400F45998 /* StringTimes.h */,
 				7784CF361E43945400F45998 /* StringTimes.m */,
+				7784CF381E439D4900F45998 /* FirstLast6.h */,
+				7784CF391E439D4900F45998 /* FirstLast6.m */,
 			);
 			path = CodingBat;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				7784CF371E43945400F45998 /* StringTimes.m in Sources */,
 				7729659D1E427E2100B57C43 /* main.m in Sources */,
 				772965A81E4285D700B57C43 /* MonkeyTrouble.m in Sources */,
+				7784CF3A1E439D4900F45998 /* FirstLast6.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
