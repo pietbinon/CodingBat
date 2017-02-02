@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "SleepIn.h"
 #import "MonkeyTrouble.h"
-
+#import "StringTimes.h"
 
 
 
@@ -17,6 +17,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         SleepIn *sleepResult1 = [[SleepIn alloc] init];
         BOOL resultSleep1 = [sleepResult1 sleepIn: NO : NO];
+        NSLog (@"---SLEEP IN---");
         NSLog(@"%@", resultSleep1 ? @"YES" : @"NO");
         
         SleepIn *sleepResult2 = [[SleepIn alloc] init];
@@ -34,6 +35,7 @@ int main(int argc, const char * argv[]) {
         
         MonkeyTrouble *monkeyTrouble1 = [[MonkeyTrouble alloc] init];
         BOOL resultMonkey1 = [monkeyTrouble1 monkeyTrouble: YES : YES];
+        NSLog (@"---MONKEY TROUBLE---");
         NSLog(@"%@", resultMonkey1 ? @"YES" : @"NO");
         
         MonkeyTrouble *monkeyTrouble2 = [[MonkeyTrouble alloc] init];
@@ -45,7 +47,18 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@", resultMonkey3 ? @"YES" : @"NO");
 
         
+        StringTimes *stringTimes1 = [[StringTimes alloc] init];
+        NSString *resultStringTimes1 = [stringTimes1 stringTimes: @"Hi" : 2];
+        NSLog (@"---STRING TIMES---");
+        NSLog (@"%@", resultStringTimes1);
         
+        StringTimes *stringTimes2 = [[StringTimes alloc] init];
+        NSString *resultStringTimes2 = [stringTimes2 stringTimes: @"Hi" : 3];
+        NSLog (@"%@", resultStringTimes2);
+        
+        StringTimes *stringTimes3 = [[StringTimes alloc] init];
+        NSString *resultStringTimes3 = [stringTimes3 stringTimes: @"Hi" : 1];
+        NSLog (@"%@", resultStringTimes3);
     }
     
     return 0;
