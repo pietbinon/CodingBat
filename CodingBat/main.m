@@ -12,6 +12,9 @@
 #import "StringTimes.h"
 #import "FirstLast6.h"
 #import "SameFirstLast.h"
+#import "ParrotTrouble.h"
+#import "MakeTags.h"
+#import "MakePi.h"
 
 
 
@@ -35,7 +38,7 @@ int main(int argc, const char * argv[]) {
 //        NSLog(@"a is %@", a ? @"YES" : @"NO");
         
         
-        
+//===================================================================================================
         MonkeyTrouble *monkeyTrouble1 = [[MonkeyTrouble alloc] init];
         BOOL resultMonkey1 = [monkeyTrouble1 monkeyTrouble: YES : YES];
         NSLog (@"---MONKEY TROUBLE---");
@@ -50,6 +53,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@", resultMonkey3 ? @"YES" : @"NO");
 
         
+        
+//===================================================================================================
         StringTimes *stringTimes1 = [[StringTimes alloc] init];
         NSString *resultStringTimes1 = [stringTimes1 stringTimes: @"Hi" : 2];
         NSLog (@"---STRING TIMES---");
@@ -64,6 +69,8 @@ int main(int argc, const char * argv[]) {
         NSLog (@"%@", resultStringTimes3);
         
         
+        
+//===================================================================================================
         FirstLast6 *firstLast61 = [[FirstLast6 alloc] init];
         NSArray *array1 = @[@"6", @"2", @"7", @"4", @"9", @"3"];
         BOOL resultFirstLast61 = [firstLast61 firstLast6: array1];
@@ -80,7 +87,9 @@ int main(int argc, const char * argv[]) {
         BOOL resultFirstLast63 = [firstLast63 firstLast6: array3];
         NSLog (@"%@", resultFirstLast63 ? @"YES" : @"NO");
         
+
         
+//===================================================================================================
         SameFirstLast *sameFirstLast1 = [[SameFirstLast alloc] init];
         NSArray *arraySameFirstLast1 = @[@"1", @"2", @"3", @"4", @"5", @"6"];
         BOOL resultSameFirstLast1 = [sameFirstLast1 sameFirstLast: arraySameFirstLast1];
@@ -101,6 +110,47 @@ int main(int argc, const char * argv[]) {
         NSArray *arraySameFirstLast4 = [[NSArray alloc] init];
         BOOL resultSameFirstLast4 = [sameFirstLast4 sameFirstLast: arraySameFirstLast4];
         NSLog (@"%@", resultSameFirstLast4 ? @"YES" : @"NO");
+        
+        
+//===================================================================================================
+        ParrotTrouble *parrotTrouble1 = [[ParrotTrouble alloc] init];
+        BOOL resultParrotTrouble1 = [parrotTrouble1 parrotTrouble: YES : 6];
+        NSLog (@"---PARROT TROUBLE");
+        NSLog (@"%@", resultParrotTrouble1 ? @"YES" : @"NO");
+        
+        ParrotTrouble *parrotTrouble2 = [[ParrotTrouble alloc] init];
+        BOOL resultParrotTrouble2 = [parrotTrouble2 parrotTrouble: NO : 23];
+        NSLog (@"%@", resultParrotTrouble2 ? @"YES" : @"NO");
+        
+        ParrotTrouble *parrotTrouble3 = [[ParrotTrouble alloc] init];
+        BOOL resultParrotTrouble3 = [parrotTrouble3 parrotTrouble: YES : 23];
+        NSLog (@"%@", resultParrotTrouble3 ? @"YES" : @"NO");
+        
+        ParrotTrouble *parrotTrouble4 = [[ParrotTrouble alloc] init];
+        BOOL resultParrotTrouble4 = [parrotTrouble4 parrotTrouble: YES : 14];
+        NSLog (@"%@", resultParrotTrouble4 ? @"YES" : @"NO");
+        
+        
+//===================================================================================================
+        MakeTags *makeTags1 = [[MakeTags alloc] init];
+        NSString *resultMakeTags1 = [makeTags1 makeTags: @"i" : @"Hello"];
+        NSLog (@"----MAKE TAGS---");
+        NSLog (@"%@", resultMakeTags1);
+        
+        MakeTags *makeTags2 = [[MakeTags alloc] init];
+        NSString *resultMakeTags2 = [makeTags2 makeTags: @"b" : @"Bye"];
+        NSLog (@"%@", resultMakeTags2);
+        
+        
+//===================================================================================================
+        MakePi *makePi1 = [[MakePi alloc] init];
+        NSArray *resultMakePi1 = [makePi1 makePi];
+        NSLog (@"---MAKE PI---");
+        NSLog (@"%@", [NSString stringWithFormat: @"[%@,%@,%@]", resultMakePi1[0], resultMakePi1[1], resultMakePi1[2]]);
+        
+        
+        
+        
     }
     
     return 0;

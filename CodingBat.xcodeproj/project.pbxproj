@@ -10,6 +10,9 @@
 		7729659D1E427E2100B57C43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7729659C1E427E2100B57C43 /* main.m */; };
 		772965A51E427E3800B57C43 /* SleepIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 772965A41E427E3800B57C43 /* SleepIn.m */; };
 		772965A81E4285D700B57C43 /* MonkeyTrouble.m in Sources */ = {isa = PBXBuildFile; fileRef = 772965A71E4285D700B57C43 /* MonkeyTrouble.m */; };
+		774D4B7E1E44F8D60075CFCA /* ParrotTrouble.m in Sources */ = {isa = PBXBuildFile; fileRef = 774D4B7D1E44F8D60075CFCA /* ParrotTrouble.m */; };
+		774D4B811E44FCE60075CFCA /* MakeTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 774D4B801E44FCE60075CFCA /* MakeTags.m */; };
+		774D4B841E4500920075CFCA /* MakePi.m in Sources */ = {isa = PBXBuildFile; fileRef = 774D4B831E4500920075CFCA /* MakePi.m */; };
 		7784CF371E43945400F45998 /* StringTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784CF361E43945400F45998 /* StringTimes.m */; };
 		7784CF3A1E439D4900F45998 /* FirstLast6.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784CF391E439D4900F45998 /* FirstLast6.m */; };
 		7784CF401E43CD5A00F45998 /* SameFirstLast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784CF3F1E43CD5A00F45998 /* SameFirstLast.m */; };
@@ -34,6 +37,12 @@
 		772965A41E427E3800B57C43 /* SleepIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepIn.m; sourceTree = "<group>"; };
 		772965A61E4285D700B57C43 /* MonkeyTrouble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonkeyTrouble.h; sourceTree = "<group>"; };
 		772965A71E4285D700B57C43 /* MonkeyTrouble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonkeyTrouble.m; sourceTree = "<group>"; };
+		774D4B7C1E44F8D60075CFCA /* ParrotTrouble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParrotTrouble.h; sourceTree = "<group>"; };
+		774D4B7D1E44F8D60075CFCA /* ParrotTrouble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParrotTrouble.m; sourceTree = "<group>"; };
+		774D4B7F1E44FCE60075CFCA /* MakeTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeTags.h; sourceTree = "<group>"; };
+		774D4B801E44FCE60075CFCA /* MakeTags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeTags.m; sourceTree = "<group>"; };
+		774D4B821E4500920075CFCA /* MakePi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakePi.h; sourceTree = "<group>"; };
+		774D4B831E4500920075CFCA /* MakePi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakePi.m; sourceTree = "<group>"; };
 		7784CF351E43945400F45998 /* StringTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringTimes.h; sourceTree = "<group>"; };
 		7784CF361E43945400F45998 /* StringTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringTimes.m; sourceTree = "<group>"; };
 		7784CF381E439D4900F45998 /* FirstLast6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLast6.h; sourceTree = "<group>"; };
@@ -83,6 +92,12 @@
 				7784CF391E439D4900F45998 /* FirstLast6.m */,
 				7784CF3E1E43CD5A00F45998 /* SameFirstLast.h */,
 				7784CF3F1E43CD5A00F45998 /* SameFirstLast.m */,
+				774D4B7C1E44F8D60075CFCA /* ParrotTrouble.h */,
+				774D4B7D1E44F8D60075CFCA /* ParrotTrouble.m */,
+				774D4B7F1E44FCE60075CFCA /* MakeTags.h */,
+				774D4B801E44FCE60075CFCA /* MakeTags.m */,
+				774D4B821E4500920075CFCA /* MakePi.h */,
+				774D4B831E4500920075CFCA /* MakePi.m */,
 			);
 			path = CodingBat;
 			sourceTree = "<group>";
@@ -146,8 +161,11 @@
 			files = (
 				7784CF401E43CD5A00F45998 /* SameFirstLast.m in Sources */,
 				772965A51E427E3800B57C43 /* SleepIn.m in Sources */,
+				774D4B811E44FCE60075CFCA /* MakeTags.m in Sources */,
 				7784CF371E43945400F45998 /* StringTimes.m in Sources */,
+				774D4B841E4500920075CFCA /* MakePi.m in Sources */,
 				7729659D1E427E2100B57C43 /* main.m in Sources */,
+				774D4B7E1E44F8D60075CFCA /* ParrotTrouble.m in Sources */,
 				772965A81E4285D700B57C43 /* MonkeyTrouble.m in Sources */,
 				7784CF3A1E439D4900F45998 /* FirstLast6.m in Sources */,
 			);
