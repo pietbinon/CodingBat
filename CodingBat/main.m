@@ -15,6 +15,7 @@
 #import "ParrotTrouble.h"
 #import "MakeTags.h"
 #import "MakePi.h"
+#import "CommonEnd.h"
 
 
 
@@ -149,6 +150,25 @@ int main(int argc, const char * argv[]) {
         NSLog (@"%@", [NSString stringWithFormat: @"[%@,%@,%@]", resultMakePi1[0], resultMakePi1[1], resultMakePi1[2]]);
         
         
+//===================================================================================================
+        CommonEnd *commonEnd1 = [[CommonEnd alloc] init];
+        NSArray *arrayCommonEnd1 = @[@"1", @"2", @"3"];
+        NSArray *arrayCommonEnd2 = @[@"7", @"3"];
+        BOOL *resultCommonEnd1 = [commonEnd1 commonEnd: arrayCommonEnd1 : arrayCommonEnd2];
+        NSLog (@"---COMMON END---");
+        NSLog (@"%@", [NSString stringWithFormat: @"%@", resultCommonEnd1 ? @"YES" : @"NO"]);
+        
+        CommonEnd *commonEnd2 = [[CommonEnd alloc] init];
+        NSArray *arrayCommonEnd3 = @[@"1", @"2", @"3"];
+        NSArray *arrayCommonEnd4 = @[@"7", @"3", @"2"];
+        BOOL *resultCommonEnd2 = [commonEnd2 commonEnd: arrayCommonEnd3 : arrayCommonEnd4];
+        NSLog (@"%@", [NSString stringWithFormat: @"%@", resultCommonEnd2 ? @"YES" : @"NO"]);
+
+        CommonEnd *commonEnd3 = [[CommonEnd alloc] init];
+        NSArray *arrayCommonEnd5 = @[@"1", @"2", @"3"];
+        NSArray *arrayCommonEnd6 = @[@"1", @"3"];
+        BOOL *resultCommonEnd3 = [commonEnd3 commonEnd: arrayCommonEnd5 : arrayCommonEnd6];
+        NSLog (@"%@", [NSString stringWithFormat: @"%@", resultCommonEnd3 ? @"YES" : @"NO"]);
         
         
     }
