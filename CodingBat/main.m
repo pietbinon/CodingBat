@@ -16,6 +16,10 @@
 #import "MakeTags.h"
 #import "MakePi.h"
 #import "CommonEnd.h"
+#import "Makes10.h"
+#import "ExtraEnd.h"
+#import "Sum3.h"
+
 
 
 
@@ -171,6 +175,49 @@ int main(int argc, const char * argv[]) {
         NSLog (@"%@", [NSString stringWithFormat: @"%@", resultCommonEnd3 ? @"YES" : @"NO"]);
         
         
+//======================================================================================================
+        Makes10 *makes101 = [[Makes10 alloc] init];
+        BOOL resultMakes101 = [makes101 makes10: 9 : 10];
+        NSLog (@"----MAKES 10----");
+        NSLog (@"%@", resultMakes101 ? @"YES" : @"NO");
+        
+        Makes10 *makes102 = [[Makes10 alloc] init];
+        BOOL resultMakes102 = [makes102 makes10: 9 : 9];
+        NSLog (@"%@", resultMakes102 ? @"YES" : @"NO");
+        
+        Makes10 *makes103 = [[Makes10 alloc] init];
+        BOOL resultMakes103 = [makes103 makes10: 1 : 9];
+        NSLog (@"%@", resultMakes103 ? @"YES" : @"NO");
+        
+        
+//=======================================================================================================
+        ExtraEnd *extraEnd1 = [[ExtraEnd alloc] init];
+        NSString *extraEnd1Output = [extraEnd1 extraEnd: @"Hello"];
+        NSLog (@"---EXTRA END---");
+        NSLog (@"%@", extraEnd1Output);
+        
+        ExtraEnd *extraEnd2 = [[ExtraEnd alloc] init];
+        NSString *extraEnd2Output = [extraEnd2 extraEnd: @"ab"];
+        NSLog (@"%@", extraEnd2Output);
+        
+        ExtraEnd *extraEnd3 = [[ExtraEnd alloc] init];
+        NSString *extraEnd3Output = [extraEnd3 extraEnd: @"Hi"];
+        NSLog (@"%@", extraEnd3Output);
+        
+        
+//=======================================================================================================
+        Sum3 *sum31 = [[Sum3 alloc] init];
+        NSInteger sum31Array = [sum31 sum3: @[@"1", @"2", @"3"]];
+        NSLog (@"----SUM 3---");
+        NSLog (@"%ld", (long)sum31Array);
+        
+        Sum3 *sum32 = [[Sum3 alloc] init];
+        NSInteger sum32Array = [sum32 sum3: @[@"5", @"11", @"2"]];
+        NSLog (@"%ld", (long)sum32Array);
+        
+        Sum3 *sum33 = [[Sum3 alloc] init];
+        NSInteger sum33Array = [sum33 sum3: @[@"7", @"0", @"0"]];
+        NSLog (@"%ld", (long)sum33Array);
     }
     
     return 0;
