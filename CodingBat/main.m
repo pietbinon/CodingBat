@@ -19,7 +19,9 @@
 #import "Makes10.h"
 #import "ExtraEnd.h"
 #import "Sum3.h"
-
+#import "PosNeg.h"
+#import "FirstTwo.h"
+#import "RotateLeft3.h"
 
 
 
@@ -218,6 +220,63 @@ int main(int argc, const char * argv[]) {
         Sum3 *sum33 = [[Sum3 alloc] init];
         NSInteger sum33Array = [sum33 sum3: @[@"7", @"0", @"0"]];
         NSLog (@"%ld", (long)sum33Array);
+        
+        
+//=======================================================================================================
+        PosNeg *posNeg1 = [[PosNeg alloc] init];
+        BOOL returnedPosNeg1 = [posNeg1 posNeg: 1 : -1 : NO];
+        NSLog (@"----POS NEG---");
+        NSLog (@"%@", returnedPosNeg1 ? @"YES" : @"NO");
+        
+        PosNeg *posNeg2 = [[PosNeg alloc] init];
+        BOOL returnedPosNeg2 = [posNeg2 posNeg: -1 : 1 : NO];
+        NSLog (@"%@", returnedPosNeg2 ? @"YES" : @"NO");
+        
+        PosNeg *posNeg3 = [[PosNeg alloc] init];
+        BOOL returnedPosNeg3 = [posNeg3 posNeg: -4 : -5 : YES];
+        NSLog (@"%@", returnedPosNeg3 ? @"YES" : @"NO");
+        
+        
+//========================================================================================================
+        FirstTwo *firstTwo1 = [[FirstTwo alloc] init];
+        NSString *string1 = [firstTwo1 firstTwo: @"Hello"];
+        NSLog (@"---FIRST TWO----");
+        NSLog (@"%@", string1);
+        
+        FirstTwo *firstTwo2 = [[FirstTwo alloc] init];
+        NSString *string2 = [firstTwo2 firstTwo: @"abcdefg"];
+        NSLog (@"%@", string2);
+        
+        FirstTwo *firstTwo3 = [[FirstTwo alloc] init];
+        NSString *string3 = [firstTwo3 firstTwo: @"ab"];
+        NSLog (@"%@", string3);
+        
+        FirstTwo *firstTwo4 = [[FirstTwo alloc] init];
+        NSString *string4 = [firstTwo4 firstTwo: @"X"];
+        NSLog (@"%@", string4);
+        
+        FirstTwo *firstTwo5 = [[FirstTwo alloc] init];
+        NSString *string5 = [firstTwo5 firstTwo: @" "];
+        NSLog (@"%@", string5);
+        
+        
+//=========================================================================================================
+        RotateLeft3 *rotate1 = [[RotateLeft3 alloc] init];
+        NSArray *arrayReturned1 = [rotate1 rotateLeft3: @[@"1", @"2", @"3"]];
+        NSLog (@"----ROTATE LEFT 3----");
+        NSLog (@"%@", arrayReturned1);
+        
+        RotateLeft3 *rotate2 = [[RotateLeft3 alloc] init];
+        NSArray *arrayReturned2 = [rotate2 rotateLeft3: @[@"5", @"11", @"9"]];
+        NSLog (@"%@", arrayReturned2);
+        
+        RotateLeft3 *rotate3 = [[RotateLeft3 alloc] init];
+        NSArray *arrayReturned3 = [rotate3 rotateLeft3: @[@"7", @"0", @"0"]];
+        NSLog (@"%@", arrayReturned3);
+
+
+
+
     }
     
     return 0;
