@@ -22,6 +22,9 @@
 #import "PosNeg.h"
 #import "FirstTwo.h"
 #import "RotateLeft3.h"
+#import "NotString.h"
+#import "FirstHalf.h"
+#import "Reverse3.h"
 
 
 
@@ -273,6 +276,53 @@ int main(int argc, const char * argv[]) {
         RotateLeft3 *rotate3 = [[RotateLeft3 alloc] init];
         NSArray *arrayReturned3 = [rotate3 rotateLeft3: @[@"7", @"0", @"0"]];
         NSLog (@"%@", arrayReturned3);
+        
+        
+//=========================================================================================================
+        NotString *notAString1 = [[NotString alloc] init];
+        NSString *returnedNotAString1 = [notAString1 notString: @" candy"];
+        NSLog (@"----NOT STRING----");
+        NSLog (@"%@", returnedNotAString1);
+        
+        NotString *notAString2 = [[NotString alloc] init];
+        NSString *returnedNotAString2 = [notAString2 notString: @" x"];
+        NSLog (@"%@", returnedNotAString2);
+        
+        NotString *notAString3 = [[NotString alloc] init];
+        NSString *returnedNotAString3 = [notAString3 notString: @"not bad"];
+        NSLog (@"%@", returnedNotAString3);
+        
+        
+//==========================================================================================================
+        FirstHalf *firstHalf1 = [[FirstHalf alloc] init];
+        NSString *firstHalf1String = [firstHalf1 firstHalf: @"WooHoo"];
+        NSLog (@"----FIRST HALF----");
+        NSLog (@"%@", firstHalf1String);
+        
+        FirstHalf *firstHalf2 = [[FirstHalf alloc] init];
+        NSString *firstHalf2String = [firstHalf2 firstHalf: @"HelloThere"];
+        NSLog (@"%@", firstHalf2String);
+        
+        FirstHalf *firstHalf3 = [[FirstHalf alloc] init];
+        NSString *firstHalf3String = [firstHalf3 firstHalf: @"abcdef"];
+        NSLog (@"%@", firstHalf3String);
+        
+        
+//===========================================================================================================
+        Reverse3 *reverse1 = [[Reverse3 alloc] init];
+        NSArray *newArray1 = [reverse1 reverse3: @[@"1", @"2", @"3"]];
+        NSLog (@"----REVERSE 3");
+        NSLog (@"%@", newArray1);
+        
+        Reverse3 *reverse2 = [[Reverse3 alloc] init];
+        NSArray *newArray2 = [reverse2 reverse3: @[@"5", @"11", @"9"]];
+        NSLog (@"----REVERSE 3");
+        NSLog (@"%@", newArray2);
+        
+        Reverse3 *reverse3 = [[Reverse3 alloc] init];
+        NSArray *newArray3 = [reverse3 reverse3: @[@"7", @"0", @"0"]];
+        NSLog (@"----REVERSE 3");
+        NSLog (@"%@", newArray3);
 
 
 
