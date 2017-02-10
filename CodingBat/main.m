@@ -25,6 +25,9 @@
 #import "NotString.h"
 #import "FirstHalf.h"
 #import "Reverse3.h"
+#import "MissingChar.h"
+#import "WithoutEnd.h"
+#import "MaxEnd3.h"
 
 
 
@@ -323,6 +326,55 @@ int main(int argc, const char * argv[]) {
         NSArray *newArray3 = [reverse3 reverse3: @[@"7", @"0", @"0"]];
         NSLog (@"----REVERSE 3");
         NSLog (@"%@", newArray3);
+        
+        
+//===========================================================================================================
+        MissingChar *missingChar1 = [[MissingChar alloc] init];
+        NSString *missingChar1String = [missingChar1 missingChar: @"kitten" : 1];
+        NSLog (@"----MISSING CHAR---");
+        NSLog (@"%@", missingChar1String);
+        
+        MissingChar *missingChar2 = [[MissingChar alloc] init];
+        NSString *missingChar2String = [missingChar2 missingChar: @"kitten" : 0];
+        NSLog (@"%@", missingChar2String);
+        
+        MissingChar *missingChar3 = [[MissingChar alloc] init];
+        NSString *missingChar3String = [missingChar3 missingChar: @"kitten" : 4];
+        NSLog (@"%@", missingChar3String);
+        
+        
+//===========================================================================================================
+        WithoutEnd *withoutEnd1 = [[WithoutEnd alloc] init];
+        NSString *withoutEnd1String = [withoutEnd1 withoutEnd: @"Hello"];
+        NSLog (@"----WITHOUT END----");
+        NSLog (@"%@", withoutEnd1String);
+        
+        WithoutEnd *withoutEnd2 = [[WithoutEnd alloc] init];
+        NSString *withoutEnd2String = [withoutEnd2 withoutEnd: @"java"];
+        NSLog (@"%@", withoutEnd2String);
+        
+        WithoutEnd *withoutEnd3 = [[WithoutEnd alloc] init];
+        NSString *withoutEnd3String = [withoutEnd3 withoutEnd: @"coding"];
+        NSLog (@"%@", withoutEnd3String);
+        
+        
+//==========================================================================================================
+        MaxEnd3 *maxEnd31 = [[MaxEnd3 alloc] init];
+        NSArray *returnedArray1 = [maxEnd31 maxEnd3: @[@1, @2, @3]];
+        NSLog (@"----MAX END 3----");
+        NSLog (@"%@", returnedArray1);
+        
+        MaxEnd3 *maxEnd32 = [[MaxEnd3 alloc] init];
+        NSArray *returnedArray2 = [maxEnd32 maxEnd3: @[@11, @5, @9]];
+        NSLog (@"----MAX END 3----");
+        NSLog (@"%@", returnedArray2);
+        
+        MaxEnd3 *maxEnd33 = [[MaxEnd3 alloc] init];
+        NSArray *returnedArray3 = [maxEnd33 maxEnd3: @[@2, @11, @3]];
+        NSLog (@"----MAX END 3----");
+        NSLog (@"%@", returnedArray3);
+
+
 
 
 
