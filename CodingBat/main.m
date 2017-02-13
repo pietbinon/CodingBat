@@ -28,6 +28,9 @@
 #import "MissingChar.h"
 #import "WithoutEnd.h"
 #import "MaxEnd3.h"
+#import "FrontBack.h"
+#import "ComboString.h"
+#import "Sum2.h"
 
 
 
@@ -373,7 +376,59 @@ int main(int argc, const char * argv[]) {
         NSArray *returnedArray3 = [maxEnd33 maxEnd3: @[@2, @11, @3]];
         NSLog (@"----MAX END 3----");
         NSLog (@"%@", returnedArray3);
+        
+        
+//===========================================================================================================
+        FrontBack *frontback1 = [[FrontBack alloc] init];
+        NSString *stringReturned1 = [frontback1 frontBack: @"code"];
+        NSLog (@"----FRONT BACK----");
+        NSLog (@"%@", stringReturned1);
+        
+        FrontBack *frontback2 = [[FrontBack alloc] init];
+        NSString *stringReturned2 = [frontback2 frontBack: @"a"];
+        NSLog (@"%@", stringReturned2);
 
+        FrontBack *frontback3 = [[FrontBack alloc] init];
+        NSString *stringReturned3 = [frontback3 frontBack: @"ab"];
+        NSLog (@"%@", stringReturned3);
+        
+        
+//==========================================================================================================
+        ComboString *comboString1 = [[ComboString alloc] init];
+        NSString *returnedString1 = [comboString1 comboString: @"Hello" : @"hi"];
+        NSLog (@"----COMBO STRING----");
+        NSLog (@"%@", returnedString1);
+        
+        ComboString *comboString2 = [[ComboString alloc] init];
+        NSString *returnedString2 = [comboString2 comboString: @"hi" : @"Hello"];
+        NSLog (@"%@", returnedString2);
+        
+        ComboString *comboString3 = [[ComboString alloc] init];
+        NSString *returnedString3 = [comboString3 comboString: @"aaa" : @"b"];
+        NSLog (@"%@", returnedString3);
+        
+        
+//=========================================================================================================
+        Sum2 *sum21 = [[Sum2 alloc] init];
+        NSInteger integer1 = [sum21 sum2: @[@"1", @"2", @"3"]];
+        NSLog (@"----SUM 21----");
+        NSLog (@"%ld", (long)integer1);
+        
+        Sum2 *sum22 = [[Sum2 alloc] init];
+        NSInteger integer2 = [sum22 sum2: @[@"1", @"1"]];
+        NSLog (@"%ld", (long)integer2);
+        
+        Sum2 *sum23 = [[Sum2 alloc] init];
+        NSInteger integer3 = [sum23 sum2: @[@"1", @"1", @"1", @"1"]];
+        NSLog (@"%ld", (long)integer3);
+        
+        Sum2 *sum24 = [[Sum2 alloc] init];
+        NSInteger integer4 = [sum24 sum2: @[@"7"]];
+        NSLog (@"%ld", (long)integer4);
+        
+        Sum2 *sum25 = [[Sum2 alloc] init];
+        NSInteger integer5 = [sum25 sum2: @[@""]];
+        NSLog (@"%ld", (long)integer5);
 
 
 
