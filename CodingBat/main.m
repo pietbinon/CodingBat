@@ -31,6 +31,10 @@
 #import "FrontBack.h"
 #import "ComboString.h"
 #import "Sum2.h"
+#import "Front3.h"
+#import "NonStart.h"
+#import "MiddleWay.h"
+
 
 
 
@@ -429,6 +433,59 @@ int main(int argc, const char * argv[]) {
         Sum2 *sum25 = [[Sum2 alloc] init];
         NSInteger integer5 = [sum25 sum2: @[@""]];
         NSLog (@"%ld", (long)integer5);
+        
+        
+//===========================================================================================================
+        Front3 *front31 = [[Front3 alloc] init];
+        NSString *returnedFront31 = [front31 front3: @"Java"];
+        NSLog (@"----FRONT 3----");
+        NSLog (@"%@", returnedFront31);
+        
+        Front3 *front32 = [[Front3 alloc] init];
+        NSString *returnedFront32 = [front32 front3: @"Chocolate"];
+        NSLog (@"%@", returnedFront32);
+        
+        Front3 *front33 = [[Front3 alloc] init];
+        NSString *returnedFront33 = [front33 front3: @"abc"];
+        NSLog (@"%@", returnedFront33);
+        
+        Front3 *front34 = [[Front3 alloc] init];
+        NSString *returnedFront34 = [front34 front3: @"yz"];
+        NSLog (@"%@", returnedFront34);
+        
+        
+//===========================================================================================================
+        NonStart *nonStart1 = [[NonStart alloc] init];
+        NSString *nonStartString1 = [nonStart1 nonStart: @"Hello" : @"There"];
+        NSLog (@"----NON START----");
+        NSLog (@"%@", nonStartString1);
+        
+        NonStart *nonStart2 = [[NonStart alloc] init];
+        NSString *nonStartString2 = [nonStart2 nonStart: @"java" : @"code"];
+        NSLog (@"%@", nonStartString2);
+        
+        NonStart *nonStart3 = [[NonStart alloc] init];
+        NSString *nonStartString3 = [nonStart3 nonStart: @"shotl" : @"java"];
+        NSLog (@"%@", nonStartString3);
+        
+        
+//==========================================================================================================
+        MiddleWay *middleWay1 = [[MiddleWay alloc] init];
+        NSArray *returnedArrayMiddleWay1 = [middleWay1 middleWay: @[@1, @2, @3] : @[@4, @5, @6]];
+        NSLog (@"----MIDDLEWAY----");
+        NSLog (@"%@", returnedArrayMiddleWay1);
+        
+        MiddleWay *middleWay2 = [[MiddleWay alloc] init];
+        NSArray *returnedArrayMiddleWay2 = [middleWay2 middleWay: @[@7, @7, @7] : @[@3, @8, @0]];
+        NSLog (@"%@", returnedArrayMiddleWay2);
+        
+        MiddleWay *middleWay3 = [[MiddleWay alloc] init];
+        NSArray *returnedArrayMiddleWay3 = [middleWay3 middleWay: @[@5, @2, @9] : @[@1, @4, @5]];
+        NSLog (@"%@", returnedArrayMiddleWay3);
+
+
+        
+        
 
 
 
