@@ -34,6 +34,9 @@
 #import "Front3.h"
 #import "NonStart.h"
 #import "MiddleWay.h"
+#import "BackAround.h"
+#import "Left2.h"
+#import "MakeEnds.h"
 
 
 
@@ -482,6 +485,51 @@ int main(int argc, const char * argv[]) {
         MiddleWay *middleWay3 = [[MiddleWay alloc] init];
         NSArray *returnedArrayMiddleWay3 = [middleWay3 middleWay: @[@5, @2, @9] : @[@1, @4, @5]];
         NSLog (@"%@", returnedArrayMiddleWay3);
+        
+        
+//===========================================================================================================
+        BackAround *backAround1 = [[BackAround alloc] init];
+        NSString *returnedBackAroundString1 = [backAround1 backAround: @"cat"];
+        NSLog (@"----BACK AROUND----");
+        NSLog (@"%@", returnedBackAroundString1);
+        
+        BackAround *backAround2 = [[BackAround alloc] init];
+        NSString *returnedBackAroundString2 = [backAround2 backAround: @"Hello"];
+        NSLog (@"%@", returnedBackAroundString2);
+        
+        BackAround *backAround3 = [[BackAround alloc] init];
+        NSString *returnedBackAroundString3 = [backAround3 backAround: @"a"];
+        NSLog (@"%@", returnedBackAroundString3);
+        
+        
+//============================================================================================================
+        Left2 *left21 = [[Left2 alloc] init];
+        NSString *returnedLeft21 = [left21 left2: @"Hello"];
+        NSLog (@"----LEFT 2----");
+        NSLog (@"%@", returnedLeft21);
+        
+        Left2 *left22 = [[Left2 alloc] init];
+        NSString *returnedLeft22 = [left22 left2: @"java"];
+        NSLog (@"%@", returnedLeft22);
+        
+        Left2 *left23 = [[Left2 alloc] init];
+        NSString *returnedLeft23 = [left23 left2: @"Hi"];
+        NSLog (@"%@", returnedLeft23);
+        
+        
+//============================================================================================================
+        MakeEnds *makeEnds1 = [[MakeEnds alloc] init];
+        NSArray *makeEnds1Array = [makeEnds1 makeEnds: @[@1, @2, @3]];
+        NSLog (@"----MAKE ENDS----");
+        NSLog (@"%@", makeEnds1Array);
+        
+        MakeEnds *makeEnds2 = [[MakeEnds alloc] init];
+        NSArray *makeEnds2Array = [makeEnds2 makeEnds: @[@1, @2, @3, @4]];
+        NSLog (@"%@", makeEnds2Array);
+        
+        MakeEnds *makeEnds3 = [[MakeEnds alloc] init];
+        NSArray *makeEnds3Array = [makeEnds3 makeEnds: @[@7, @4, @6, @2]];
+        NSLog (@"%@", makeEnds3Array);
 
 
         
