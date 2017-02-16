@@ -37,6 +37,10 @@
 #import "BackAround.h"
 #import "Left2.h"
 #import "MakeEnds.h"
+#import "Or35.h"
+#import "Right2.h"
+#import "Has23.h"
+
 
 
 
@@ -530,6 +534,54 @@ int main(int argc, const char * argv[]) {
         MakeEnds *makeEnds3 = [[MakeEnds alloc] init];
         NSArray *makeEnds3Array = [makeEnds3 makeEnds: @[@7, @4, @6, @2]];
         NSLog (@"%@", makeEnds3Array);
+        
+        
+//===========================================================================================================
+        Or35 *or351 = [[Or35 alloc] init];
+        BOOL or351Bool = [or351 or35: 3];
+        NSLog (@"----OR 35----");
+        NSLog (@"%s", or351Bool ? "YES" : "NO");
+        
+        Or35 *or352 = [[Or35 alloc] init];
+        BOOL or352Bool = [or352 or35: 10];
+        NSLog (@"%s", or352Bool ? "YES" : "NO");
+        
+        Or35 *or353 = [[Or35 alloc] init];
+        BOOL or353Bool = [or353 or35: 8];
+        NSLog (@"%s", or353Bool ? "YES" : "NO");
+        
+        
+//===========================================================================================================
+        Right2 *right21 = [[Right2 alloc] init];
+        NSString *right21Returned = [right21 right2: @"Hello"];
+        NSLog (@"----RIGHT 2----");
+        NSLog (@"%@", right21Returned);
+        
+        Right2 *right22 = [[Right2 alloc] init];
+        NSString *right22Returned = [right22 right2: @"java"];
+        NSLog (@"%@", right22Returned);
+        
+        Right2 *right23 = [[Right2 alloc] init];
+        NSString *right23Returned = [right23 right2: @"Hi"];
+        NSLog (@"%@", right23Returned);
+        
+        
+//==========================================================================================================
+        Has23 *has231 = [[Has23 alloc] init];
+        BOOL has231Bool = [has231 has23: @[@2, @5]];
+        NSLog (@"----HAS 23----");
+        NSLog (@"%s", has231Bool ? "YES" : "NO");
+        
+        Has23 *has232 = [[Has23 alloc] init];
+        BOOL has232Bool = [has232 has23: @[@4, @3]];
+        NSLog (@"%s", has232Bool ? "YES" : "NO");
+        
+        Has23 *has233 = [[Has23 alloc] init];
+        BOOL has233Bool = [has233 has23: @[@4, @5]];
+        NSLog (@"%s", has233Bool ? "YES" : "NO");
+        
+        
+//=========================================================================================================
 
 
         
