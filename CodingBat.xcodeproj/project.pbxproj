@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7705D8E51E5761E500BFC8E9 /* Front22.m in Sources */ = {isa = PBXBuildFile; fileRef = 7705D8E41E5761E500BFC8E9 /* Front22.m */; };
+		7705D8E81E57665300BFC8E9 /* TheEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7705D8E71E57665300BFC8E9 /* TheEnd.m */; };
+		7705D8EB1E57694500BFC8E9 /* No23.m in Sources */ = {isa = PBXBuildFile; fileRef = 7705D8EA1E57694500BFC8E9 /* No23.m */; };
 		77088CDB1E4B82A300C9A811 /* PosNeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 77088CDA1E4B82A300C9A811 /* PosNeg.m */; };
 		77088CDE1E4B861C00C9A811 /* FirstTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 77088CDD1E4B861C00C9A811 /* FirstTwo.m */; };
 		77088CE11E4B8C2000C9A811 /* RotateLeft3.m in Sources */ = {isa = PBXBuildFile; fileRef = 77088CE01E4B8C2000C9A811 /* RotateLeft3.m */; };
@@ -56,6 +59,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7705D8E31E5761E500BFC8E9 /* Front22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Front22.h; sourceTree = "<group>"; };
+		7705D8E41E5761E500BFC8E9 /* Front22.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Front22.m; sourceTree = "<group>"; };
+		7705D8E61E57665300BFC8E9 /* TheEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheEnd.h; sourceTree = "<group>"; };
+		7705D8E71E57665300BFC8E9 /* TheEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheEnd.m; sourceTree = "<group>"; };
+		7705D8E91E57694500BFC8E9 /* No23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = No23.h; sourceTree = "<group>"; };
+		7705D8EA1E57694500BFC8E9 /* No23.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = No23.m; sourceTree = "<group>"; };
 		77088CD91E4B82A300C9A811 /* PosNeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PosNeg.h; sourceTree = "<group>"; };
 		77088CDA1E4B82A300C9A811 /* PosNeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PosNeg.m; sourceTree = "<group>"; };
 		77088CDC1E4B861C00C9A811 /* FirstTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTwo.h; sourceTree = "<group>"; };
@@ -223,6 +232,12 @@
 				7782B5571E560E2800E8FA99 /* Or35.m */,
 				7782B5591E56102700E8FA99 /* Right2.h */,
 				7782B55A1E56102700E8FA99 /* Right2.m */,
+				7705D8E31E5761E500BFC8E9 /* Front22.h */,
+				7705D8E41E5761E500BFC8E9 /* Front22.m */,
+				7705D8E61E57665300BFC8E9 /* TheEnd.h */,
+				7705D8E71E57665300BFC8E9 /* TheEnd.m */,
+				7705D8E91E57694500BFC8E9 /* No23.h */,
+				7705D8EA1E57694500BFC8E9 /* No23.m */,
 			);
 			path = CodingBat;
 			sourceTree = "<group>";
@@ -287,7 +302,9 @@
 				77867CCD1E4A3B74001E04B7 /* Sum3.m in Sources */,
 				77867CCA1E4A3510001E04B7 /* ExtraEnd.m in Sources */,
 				7784CF401E43CD5A00F45998 /* SameFirstLast.m in Sources */,
+				7705D8E81E57665300BFC8E9 /* TheEnd.m in Sources */,
 				77E657661E54CA660055EB5B /* Left2.m in Sources */,
+				7705D8EB1E57694500BFC8E9 /* No23.m in Sources */,
 				772139321E4CC94800E47E6E /* NotString.m in Sources */,
 				772965A51E427E3800B57C43 /* SleepIn.m in Sources */,
 				772139351E4CD1FC00E47E6E /* FirstHalf.m in Sources */,
@@ -305,6 +322,7 @@
 				77A623AB1E521E7600AD8564 /* Sum2.m in Sources */,
 				779A90291E5374A800D1AD06 /* NonStart.m in Sources */,
 				77E657631E54C6350055EB5B /* BackAround.m in Sources */,
+				7705D8E51E5761E500BFC8E9 /* Front22.m in Sources */,
 				77A623A81E52196100AD8564 /* ComboString.m in Sources */,
 				7784CF371E43945400F45998 /* StringTimes.m in Sources */,
 				77BCF8571E4E350E00612BAD /* MaxEnd3.m in Sources */,

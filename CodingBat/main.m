@@ -40,6 +40,9 @@
 #import "Or35.h"
 #import "Right2.h"
 #import "Has23.h"
+#import "Front22.h"
+#import "TheEnd.h"
+#import "No23.h"
 
 
 
@@ -582,14 +585,51 @@ int main(int argc, const char * argv[]) {
         
         
 //=========================================================================================================
-
-
+        Front22 *front221 = [Front22 new];
+        NSString *returnedFront221 = [front221 front22: @"kitten"];
+        NSLog (@"----FRONT 22----");
+        NSLog (@"%@", returnedFront221);
+        
+        Front22 *front222 = [Front22 new];
+        NSString *returnedFront222 = [front222 front22: @"Ha"];
+        NSLog (@"%@", returnedFront222);
+        
+        Front22 *front223 = [Front22 new];
+        NSString *returnedFront223 = [front223 front22: @"abc"];
+        NSLog (@"%@", returnedFront223);
         
         
-
-
-
-
+//=========================================================================================================
+        TheEnd *theEnd1 = [TheEnd new];
+        NSString *returnedTheEnd1 = [theEnd1 theEnd: @"Hello" :YES];
+        NSLog (@"----THE END----");
+        NSLog (@"%@", returnedTheEnd1);
+        
+        TheEnd *theEnd2 = [TheEnd new];
+        NSString *returnedTheEnd2 = [theEnd2 theEnd: @"Hello" :NO];
+        NSLog (@"%@", returnedTheEnd2);
+        
+        TheEnd *theEnd3 = [TheEnd new];
+        NSString *returnedTheEnd3 = [theEnd3 theEnd: @"oh" :YES];
+        NSLog (@"%@", returnedTheEnd3);
+        
+        
+//==========================================================================================================
+        No23 *no231 = [No23 new];
+        BOOL returnedNo231 = [no231 no23: @[@4, @5]];
+        NSLog (@"----NO 23----");
+        NSLog (@"%s", returnedNo231 ? "YES" : "NO");
+        
+        No23 *no232 = [No23 new];
+        BOOL returnedNo232 = [no232 no23: @[@4, @2]];
+        NSLog (@"%s", returnedNo232 ? "YES" : "NO");
+        
+        No23 *no233 = [No23 new];
+        BOOL returnedNo233 = [no233 no23: @[@3, @5]];
+        NSLog (@"%s", returnedNo233 ? "YES" : "NO");
+        
+        
+//============================================================================================================
 
     }
     
