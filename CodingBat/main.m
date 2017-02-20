@@ -43,6 +43,9 @@
 #import "Front22.h"
 #import "TheEnd.h"
 #import "No23.h"
+#import "StartHi.h"
+#import "WithoutEnd2.h"
+#import "MakeLast.h"
 
 
 
@@ -630,7 +633,57 @@ int main(int argc, const char * argv[]) {
         
         
 //============================================================================================================
-
+        StartHi *startHi1 = [StartHi new];
+        BOOL startHi1Bool = [startHi1 startHi: @"hi there"];
+        NSLog (@"----START HI----");
+        NSLog (@"%s", startHi1Bool ?"YES" : "NO");
+        
+        StartHi *startHi2 = [StartHi new];
+        BOOL startHi2Bool = [startHi2 startHi: @"hi"];
+        NSLog (@"%s", startHi2Bool ?"YES" : "NO");
+        
+        StartHi *startHi3 = [StartHi new];
+        BOOL startHi3Bool = [startHi3 startHi: @"hello hi"];
+        NSLog (@"%s", startHi3Bool ?"YES" : "NO");
+        
+        
+//============================================================================================================
+        WithoutEnd2 *withoutEnd21 = [WithoutEnd2 new];
+        NSString *withoutEnd21String = [withoutEnd21 withoutEnd2: @"Hello"];
+        NSLog (@"----WITHOUT END 2----");
+        NSLog (@"%@", withoutEnd21String);
+        
+        WithoutEnd2 *withoutEnd22 = [WithoutEnd2 new];
+        NSString *withoutEnd22String = [withoutEnd22 withoutEnd2: @"abc"];
+        NSLog (@"%@", withoutEnd22String);
+        
+        WithoutEnd2 *withoutEnd23 = [WithoutEnd2 new];
+        NSString *withoutEnd23String = [withoutEnd23 withoutEnd2: @"ab"];
+        NSLog (@"%@", withoutEnd23String);
+        
+        
+//============================================================================================================
+        MakeLast *makeLast1 = [MakeLast new];
+        NSArray *makeLast1Array = [makeLast1 makeLast: @[@4, @5, @6]];
+        NSLog (@"----MAKE LAST----");
+        for (id item in makeLast1Array) {
+            NSLog (@"%@", item);
+        }
+        
+        MakeLast *makeLast2 = [MakeLast new];
+        NSArray *makeLast2Array = [makeLast2 makeLast: @[@1, @2]];
+        for (id item in makeLast2Array) {
+            NSLog (@"%@", item);
+        }
+        
+        MakeLast *makeLast3 = [MakeLast new];
+        NSArray *makeLast3Array = [makeLast3 makeLast: @[@3]];
+        for (id item in makeLast3Array) {
+                NSLog (@"%@", item);
+        }
+                                   
+                                   
+//===========================================================================================================
     }
     
     return 0;
