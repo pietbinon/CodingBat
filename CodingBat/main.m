@@ -46,6 +46,9 @@
 #import "StartHi.h"
 #import "WithoutEnd2.h"
 #import "MakeLast.h"
+#import "IcyHot.h"
+#import "MiddleTwo.h"
+#import "Double23.h"
 
 
 
@@ -684,6 +687,52 @@ int main(int argc, const char * argv[]) {
                                    
                                    
 //===========================================================================================================
+        IcyHot *icyHot1 = [[IcyHot alloc] init];
+        BOOL icyHot1Bool = [icyHot1 icyHot: 120 : -1];
+        NSLog (@"----ICY HOT----");
+        NSLog (@"%s", icyHot1Bool ? "YES" : "NO");
+        
+        IcyHot *icyHot2 = [[IcyHot alloc] init];
+        BOOL icyHot2Bool = [icyHot2 icyHot: -1 : 120];
+        NSLog (@"%s", icyHot2Bool ? "YES" : "NO");
+        
+        IcyHot *icyHot3 = [[IcyHot alloc] init];
+        BOOL icyHot3Bool = [icyHot3 icyHot: 2 : 120];
+        NSLog (@"%s", icyHot3Bool ? "YES" : "NO");
+        
+        
+//===========================================================================================================
+        MiddleTwo *middleTwo1 = [[MiddleTwo alloc] init];
+        NSString *middleTwo1String = [middleTwo1 middleTwo: @"string"];
+        NSLog (@"----MIDDLE TWO----");
+        NSLog (@"%@", middleTwo1String);
+        
+        MiddleTwo *middleTwo2 = [[MiddleTwo alloc] init];
+        NSString *middleTwo2String = [middleTwo2 middleTwo: @"code"];
+        NSLog (@"%@", middleTwo2String);
+        
+        MiddleTwo *middleTwo3 = [[MiddleTwo alloc] init];
+        NSString *middleTwo3String = [middleTwo3 middleTwo: @"Practice"];
+        NSLog (@"%@", middleTwo3String);
+        
+        
+//============================================================================================================
+        Double23 *double231 = [Double23 new];
+        BOOL double231Bool = [double231 double23: @[@2, @2]];
+        NSLog (@"----DOUBLE 23----");
+        NSLog (@"%s", double231Bool ? "YES" : "NO");
+        
+        Double23 *double232 = [Double23 new];
+        BOOL double232Bool = [double232 double23: @[@3, @3]];
+        NSLog (@"%s", double232Bool ? "YES" : "NO");
+        
+        Double23 *double233 = [Double23 new];
+        BOOL double233Bool = [double233 double23: @[@2, @3]];
+        NSLog (@"%s", double233Bool ? "YES" : "NO");
+        
+        
+//============================================================================================================
+        
     }
     
     return 0;

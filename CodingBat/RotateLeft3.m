@@ -29,7 +29,12 @@
     NSString *temp2String = [nums objectAtIndex: 1];
     NSString *temp3String = [nums objectAtIndex: 2];
     
-    NSArray *newArray = [[NSArray alloc] initWithObjects: @[temp2String], @[temp3String], @[temp1String], nil];
+//    //Old syntax
+//    NSArray *newArray = [[NSArray alloc] initWithObjects: @[temp2String], @[temp3String], @[temp1String], nil];
+//    NSArray *newArray = [[NSArray alloc] initWithObjects: @[@[temp2String], @[temp3String], @[temp1String]], nil];
+    
+    //New syntax
+    NSArray *newArray = @[@[temp2String], @[temp3String], @[temp1String]];
     return newArray;
 }
 
