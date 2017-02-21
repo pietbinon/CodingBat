@@ -25,7 +25,7 @@
 @implementation FirstLast6
 
 - (BOOL) firstLast6: (NSArray *) nums {
-    if ([[nums objectAtIndex: 0] isEqualToString: @"6"] || [[nums objectAtIndex: 5] isEqualToString: @"6"]) {
+    if ([[nums objectAtIndex: 0] isEqualToString: @"6"] || [[nums objectAtIndex: nums.count - 1] isEqualToString: @"6"]) {
         return YES;
     } else {
         return NO;

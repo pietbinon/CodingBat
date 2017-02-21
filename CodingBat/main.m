@@ -108,18 +108,18 @@ int main(int argc, const char * argv[]) {
         
 //===================================================================================================
         FirstLast6 *firstLast61 = [[FirstLast6 alloc] init];
-        NSArray *array1 = @[@"6", @"2", @"7", @"4", @"9", @"3"];
+        NSArray *array1 = @[@"1", @"2", @"6"];
         BOOL resultFirstLast61 = [firstLast61 firstLast6: array1];
         NSLog (@"---FIRST LAST 6---");
         NSLog (@"%@", resultFirstLast61 ? @"YES" : @"NO");
         
         FirstLast6 *firstLast62 = [[FirstLast6 alloc] init];
-        NSArray *array2 = @[@"2", @"6", @"7", @"4", @"9", @"3"];
+        NSArray *array2 = @[@"6", @"1", @"2", @"3"];
         BOOL resultFirstLast62 = [firstLast62 firstLast6: array2];
         NSLog (@"%@", resultFirstLast62 ? @"YES" : @"NO");
         
         FirstLast6 *firstLast63 = [[FirstLast6 alloc] init];
-        NSArray *array3 = @[@"3", @"2", @"7", @"4", @"9", @"6"];
+        NSArray *array3 = @[@"13", @"6", @"1", @"2", @"3"];
         BOOL resultFirstLast63 = [firstLast63 firstLast6: array3];
         NSLog (@"%@", resultFirstLast63 ? @"YES" : @"NO");
         
