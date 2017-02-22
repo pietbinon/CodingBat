@@ -25,6 +25,9 @@
 		774D4B7E1E44F8D60075CFCA /* ParrotTrouble.m in Sources */ = {isa = PBXBuildFile; fileRef = 774D4B7D1E44F8D60075CFCA /* ParrotTrouble.m */; };
 		774D4B811E44FCE60075CFCA /* MakeTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 774D4B801E44FCE60075CFCA /* MakeTags.m */; };
 		774D4B841E4500920075CFCA /* MakePi.m in Sources */ = {isa = PBXBuildFile; fileRef = 774D4B831E4500920075CFCA /* MakePi.m */; };
+		7775C1151E5DF1DA00BA8430 /* In1020.m in Sources */ = {isa = PBXBuildFile; fileRef = 7775C1141E5DF1DA00BA8430 /* In1020.m */; };
+		7775C1181E5DF51900BA8430 /* EndsLy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7775C1171E5DF51900BA8430 /* EndsLy.m */; };
+		7775C11B1E5E006400BA8430 /* Fix23.m in Sources */ = {isa = PBXBuildFile; fileRef = 7775C11A1E5E006400BA8430 /* Fix23.m */; };
 		7782B5581E560E2800E8FA99 /* Or35.m in Sources */ = {isa = PBXBuildFile; fileRef = 7782B5571E560E2800E8FA99 /* Or35.m */; };
 		7782B55B1E56102700E8FA99 /* Right2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7782B55A1E56102700E8FA99 /* Right2.m */; };
 		7782B55E1E56139600E8FA99 /* Has23.m in Sources */ = {isa = PBXBuildFile; fileRef = 7782B55D1E56139600E8FA99 /* Has23.m */; };
@@ -101,6 +104,12 @@
 		774D4B801E44FCE60075CFCA /* MakeTags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeTags.m; sourceTree = "<group>"; };
 		774D4B821E4500920075CFCA /* MakePi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakePi.h; sourceTree = "<group>"; };
 		774D4B831E4500920075CFCA /* MakePi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakePi.m; sourceTree = "<group>"; };
+		7775C1131E5DF1DA00BA8430 /* In1020.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = In1020.h; sourceTree = "<group>"; };
+		7775C1141E5DF1DA00BA8430 /* In1020.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = In1020.m; sourceTree = "<group>"; };
+		7775C1161E5DF51900BA8430 /* EndsLy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndsLy.h; sourceTree = "<group>"; };
+		7775C1171E5DF51900BA8430 /* EndsLy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndsLy.m; sourceTree = "<group>"; };
+		7775C1191E5E006400BA8430 /* Fix23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fix23.h; sourceTree = "<group>"; };
+		7775C11A1E5E006400BA8430 /* Fix23.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fix23.m; sourceTree = "<group>"; };
 		7782B5561E560E2800E8FA99 /* Or35.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Or35.h; sourceTree = "<group>"; };
 		7782B5571E560E2800E8FA99 /* Or35.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Or35.m; sourceTree = "<group>"; };
 		7782B5591E56102700E8FA99 /* Right2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Right2.h; sourceTree = "<group>"; };
@@ -268,6 +277,12 @@
 				7709BDF01E5CA7F40061090A /* MiddleTwo.m */,
 				7709BDF21E5CAB0C0061090A /* Double23.h */,
 				7709BDF31E5CAB0C0061090A /* Double23.m */,
+				7775C1131E5DF1DA00BA8430 /* In1020.h */,
+				7775C1141E5DF1DA00BA8430 /* In1020.m */,
+				7775C1161E5DF51900BA8430 /* EndsLy.h */,
+				7775C1171E5DF51900BA8430 /* EndsLy.m */,
+				7775C1191E5E006400BA8430 /* Fix23.h */,
+				7775C11A1E5E006400BA8430 /* Fix23.m */,
 			);
 			path = CodingBat;
 			sourceTree = "<group>";
@@ -354,6 +369,7 @@
 				77BCF8541E4E2DC600612BAD /* WithoutEnd.m in Sources */,
 				77A623AB1E521E7600AD8564 /* Sum2.m in Sources */,
 				779A90291E5374A800D1AD06 /* NonStart.m in Sources */,
+				7775C1151E5DF1DA00BA8430 /* In1020.m in Sources */,
 				77E657631E54C6350055EB5B /* BackAround.m in Sources */,
 				7705D8E51E5761E500BFC8E9 /* Front22.m in Sources */,
 				77A623A81E52196100AD8564 /* ComboString.m in Sources */,
@@ -363,6 +379,7 @@
 				774D4B841E4500920075CFCA /* MakePi.m in Sources */,
 				7782B55E1E56139600E8FA99 /* Has23.m in Sources */,
 				7729659D1E427E2100B57C43 /* main.m in Sources */,
+				7775C1181E5DF51900BA8430 /* EndsLy.m in Sources */,
 				774D4B7E1E44F8D60075CFCA /* ParrotTrouble.m in Sources */,
 				772965A81E4285D700B57C43 /* MonkeyTrouble.m in Sources */,
 				779A90261E53714A00D1AD06 /* Front3.m in Sources */,
@@ -371,6 +388,7 @@
 				7782B55B1E56102700E8FA99 /* Right2.m in Sources */,
 				7784CF3A1E439D4900F45998 /* FirstLast6.m in Sources */,
 				779A902C1E53781400D1AD06 /* MiddleWay.m in Sources */,
+				7775C11B1E5E006400BA8430 /* Fix23.m in Sources */,
 				77A623A51E52122B00AD8564 /* FrontBack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

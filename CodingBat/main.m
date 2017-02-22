@@ -49,6 +49,9 @@
 #import "IcyHot.h"
 #import "MiddleTwo.h"
 #import "Double23.h"
+#import "In1020.h"
+#import "EndsLy.h"
+#import "Fix23.h"
 
 
 
@@ -732,7 +735,51 @@ int main(int argc, const char * argv[]) {
         
         
 //============================================================================================================
+        In1020 *in10201 = [In1020 new];
+        BOOL in10201Bool = [in10201 in1020: 12 : 99];
+        NSLog (@"----IN 1020----");
+        NSLog (@"%s", in10201Bool ? "YES" : "NO");
         
+        In1020 *in10202 = [In1020 new];
+        BOOL in10202Bool = [in10202 in1020: 21 : 12];
+        NSLog (@"%s", in10202Bool ? "YES" : "NO");
+        
+        In1020 *in10203 = [In1020 new];
+        BOOL in10203Bool = [in10203 in1020: 8 : 99];
+        NSLog (@"%s", in10203Bool ? "YES" : "NO");
+        
+        
+//============================================================================================================
+        EndsLy *endsLy1 = [EndsLy new];
+        BOOL endsLy1Bool = [endsLy1 endsLy: @"oddly"];
+        NSLog (@"----ENDSLY----");
+        NSLog (@"%s", endsLy1Bool ? "YES" : "NO");
+        
+        EndsLy *endsLy2 = [EndsLy new];
+        BOOL endsLy2Bool = [endsLy2 endsLy: @"y"];
+        NSLog (@"%s", endsLy2Bool ? "YES" : "NO");
+        
+        EndsLy *endsLy3 = [EndsLy new];
+        BOOL endsLy3Bool = [endsLy3 endsLy: @"oddy"];
+        NSLog (@"%s", endsLy3Bool ? "YES" : "NO");
+        
+        
+//============================================================================================================
+        Fix23 *fix231 = [[Fix23 alloc] init];
+        NSArray *fix231Array = [fix231 fix23: @[@1, @2, @3]];
+        NSLog (@"----FIX 23----");
+        NSLog (@"%@", fix231Array);
+        
+        Fix23 *fix232 = [[Fix23 alloc] init];
+        NSArray *fix232Array = [fix232 fix23: @[@2, @3, @5]];
+        NSLog (@"%@", fix232Array);
+        
+        Fix23 *fix233 = [[Fix23 alloc] init];
+        NSArray *fix233Array = [fix233 fix23: @[@1, @2, @1]];
+        NSLog (@"%@", fix233Array);
+        
+        
+//============================================================================================================
     }
     
     return 0;
