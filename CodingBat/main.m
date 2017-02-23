@@ -52,6 +52,9 @@
 #import "In1020.h"
 #import "EndsLy.h"
 #import "Fix23.h"
+#import "HasTeen.h"
+#import "NTwice.h"
+#import "Start1.h"
 
 
 
@@ -777,6 +780,55 @@ int main(int argc, const char * argv[]) {
         Fix23 *fix233 = [[Fix23 alloc] init];
         NSArray *fix233Array = [fix233 fix23: @[@1, @2, @1]];
         NSLog (@"%@", fix233Array);
+        
+        
+//============================================================================================================
+        HasTeen *hasTeen1 = [HasTeen new];
+        BOOL hasTeen1Bool = [hasTeen1 hasTeen: 13 : 20 : 10];
+        NSLog (@"----HAS TEEN----");
+        NSLog (@"%s", hasTeen1Bool ? "YES" : "NO");
+        
+        HasTeen *hasTeen2 = [HasTeen new];
+        BOOL hasTeen2Bool = [hasTeen2 hasTeen: 20 : 19 : 10];
+        NSLog (@"%s", hasTeen2Bool ? "YES" : "NO");
+        
+        HasTeen *hasTeen3 = [HasTeen new];
+        BOOL hasTeen3Bool = [hasTeen3 hasTeen: 20 : 10 : 13];
+        NSLog (@"%s", hasTeen3Bool ? "YES" : "NO");
+        
+        HasTeen *hasTeen4 = [HasTeen new];
+        BOOL hasTeen4Bool = [hasTeen4 hasTeen: 9 : 27 : 33];
+        NSLog (@"%s", hasTeen4Bool ? "YES" : "NO");
+        
+        
+//============================================================================================================
+        NTwice *nTwice1 = [[NTwice alloc] init];
+        NSString *nTwice1String = [nTwice1 nTwice: @"Hello" : 2];
+        NSLog (@"----NTWICE----");
+        NSLog (@"%@", nTwice1String);
+        
+        NTwice *nTwice2 = [[NTwice alloc] init];
+        NSString *nTwice2String = [nTwice2 nTwice: @"Chocolate" : 3];
+        NSLog (@"%@", nTwice2String);
+        
+        NTwice *nTwice3 = [[NTwice alloc] init];
+        NSString *nTwice3String = [nTwice3 nTwice: @"Chocolate" : 1];
+        NSLog (@"%@", nTwice3String);
+        
+        
+//============================================================================================================
+        Start1 *start11 = [Start1 new];
+        NSInteger start1Int = [start11 start1: @[@1, @2, @3] : @[@1, @3]];
+        NSLog (@"----START1----");
+        NSLog (@"%ld", (long)start1Int);
+        
+        Start1 *start12 = [Start1 new];
+        NSInteger start2Int = [start12 start1: @[@7, @2, @3] : @[@1]];
+        NSLog (@"%ld", (long)start2Int);
+        
+        Start1 *start13 = [Start1 new];
+        NSInteger start3Int = [start13 start1: @[@1, @2] : nil];
+        NSLog (@"%ld", (long)start3Int);
         
         
 //============================================================================================================
