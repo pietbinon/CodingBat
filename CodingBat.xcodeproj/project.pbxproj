@@ -53,6 +53,9 @@
 		77BCF8511E4E1E5E00612BAD /* MissingChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BCF8501E4E1E5E00612BAD /* MissingChar.m */; };
 		77BCF8541E4E2DC600612BAD /* WithoutEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BCF8531E4E2DC600612BAD /* WithoutEnd.m */; };
 		77BCF8571E4E350E00612BAD /* MaxEnd3.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BCF8561E4E350E00612BAD /* MaxEnd3.m */; };
+		77D70F031E609CA700D5F8F1 /* LoneTeen.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D70F021E609CA700D5F8F1 /* LoneTeen.m */; };
+		77D70F061E60A22A00D5F8F1 /* TwoChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D70F051E60A22A00D5F8F1 /* TwoChar.m */; };
+		77D70F091E60A6C900D5F8F1 /* BiggerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D70F081E60A6C900D5F8F1 /* BiggerTwo.m */; };
 		77E657631E54C6350055EB5B /* BackAround.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E657621E54C6350055EB5B /* BackAround.m */; };
 		77E657661E54CA660055EB5B /* Left2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E657651E54CA660055EB5B /* Left2.m */; };
 		77E657691E54CD0D0055EB5B /* MakeEnds.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E657681E54CD0D0055EB5B /* MakeEnds.m */; };
@@ -163,6 +166,12 @@
 		77BCF8531E4E2DC600612BAD /* WithoutEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithoutEnd.m; sourceTree = "<group>"; };
 		77BCF8551E4E350E00612BAD /* MaxEnd3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxEnd3.h; sourceTree = "<group>"; };
 		77BCF8561E4E350E00612BAD /* MaxEnd3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxEnd3.m; sourceTree = "<group>"; };
+		77D70F011E609CA700D5F8F1 /* LoneTeen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoneTeen.h; sourceTree = "<group>"; };
+		77D70F021E609CA700D5F8F1 /* LoneTeen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoneTeen.m; sourceTree = "<group>"; };
+		77D70F041E60A22A00D5F8F1 /* TwoChar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoChar.h; sourceTree = "<group>"; };
+		77D70F051E60A22A00D5F8F1 /* TwoChar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoChar.m; sourceTree = "<group>"; };
+		77D70F071E60A6C900D5F8F1 /* BiggerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiggerTwo.h; sourceTree = "<group>"; };
+		77D70F081E60A6C900D5F8F1 /* BiggerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiggerTwo.m; sourceTree = "<group>"; };
 		77E657611E54C6350055EB5B /* BackAround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackAround.h; sourceTree = "<group>"; };
 		77E657621E54C6350055EB5B /* BackAround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackAround.m; sourceTree = "<group>"; };
 		77E657641E54CA660055EB5B /* Left2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Left2.h; sourceTree = "<group>"; };
@@ -298,6 +307,12 @@
 				770E6C4F1E5F4B6500E0A9FF /* NTwice.m */,
 				770E6C511E5F4F4E00E0A9FF /* Start1.h */,
 				770E6C521E5F4F4E00E0A9FF /* Start1.m */,
+				77D70F011E609CA700D5F8F1 /* LoneTeen.h */,
+				77D70F021E609CA700D5F8F1 /* LoneTeen.m */,
+				77D70F041E60A22A00D5F8F1 /* TwoChar.h */,
+				77D70F051E60A22A00D5F8F1 /* TwoChar.m */,
+				77D70F071E60A6C900D5F8F1 /* BiggerTwo.h */,
+				77D70F081E60A6C900D5F8F1 /* BiggerTwo.m */,
 			);
 			path = CodingBat;
 			sourceTree = "<group>";
@@ -359,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D70F061E60A22A00D5F8F1 /* TwoChar.m in Sources */,
 				77867CCD1E4A3B74001E04B7 /* Sum3.m in Sources */,
 				77867CCA1E4A3510001E04B7 /* ExtraEnd.m in Sources */,
 				7784CF401E43CD5A00F45998 /* SameFirstLast.m in Sources */,
@@ -370,6 +386,7 @@
 				772139351E4CD1FC00E47E6E /* FirstHalf.m in Sources */,
 				77A714011E494831003A8A66 /* CommonEnd.m in Sources */,
 				77088CE11E4B8C2000C9A811 /* RotateLeft3.m in Sources */,
+				77D70F031E609CA700D5F8F1 /* LoneTeen.m in Sources */,
 				77BCF8511E4E1E5E00612BAD /* MissingChar.m in Sources */,
 				770E6C4D1E5F454600E0A9FF /* HasTeen.m in Sources */,
 				7782B5581E560E2800E8FA99 /* Or35.m in Sources */,
@@ -381,6 +398,7 @@
 				774D4B811E44FCE60075CFCA /* MakeTags.m in Sources */,
 				770E6C531E5F4F4E00E0A9FF /* Start1.m in Sources */,
 				7709BDF41E5CAB0C0061090A /* Double23.m in Sources */,
+				77D70F091E60A6C900D5F8F1 /* BiggerTwo.m in Sources */,
 				77088CDB1E4B82A300C9A811 /* PosNeg.m in Sources */,
 				772139381E4CD46A00E47E6E /* Reverse3.m in Sources */,
 				77BCF8541E4E2DC600612BAD /* WithoutEnd.m in Sources */,

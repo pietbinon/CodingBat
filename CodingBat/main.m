@@ -55,6 +55,9 @@
 #import "HasTeen.h"
 #import "NTwice.h"
 #import "Start1.h"
+#import "LoneTeen.h"
+#import "TwoChar.h"
+#import "BiggerTwo.h"
 
 
 
@@ -832,6 +835,54 @@ int main(int argc, const char * argv[]) {
         
         
 //============================================================================================================
+        LoneTeen *loneTeen1 = [LoneTeen new];
+        BOOL loneTeen1Bool = [loneTeen1 loneTeen: 13 : 99];
+        NSLog (@"----LONE TEEN----");
+        NSLog (@"%s", loneTeen1Bool ? "YES" : "NO");
+        
+        LoneTeen *loneTeen2 = [LoneTeen new];
+        BOOL loneTeen2Bool = [loneTeen2 loneTeen: 21 : 19];
+        NSLog (@"%s", loneTeen2Bool ? "YES" : "NO");
+        
+        LoneTeen *loneTeen3 = [LoneTeen new];
+        BOOL loneTeen3Bool = [loneTeen3 loneTeen: 13 : 13];
+        NSLog (@"%s", loneTeen3Bool ? "YES" : "NO");
+        
+        LoneTeen *loneTeen4 = [LoneTeen new];
+        BOOL loneTeen4Bool = [loneTeen4 loneTeen: 9 : 27];
+        NSLog (@"%s", loneTeen4Bool ? "YES" : "NO");
+        
+        
+//============================================================================================================
+        //Using class method - No need to instantiate an instance of the class...
+        NSString *twoCharString1 = [TwoChar TwoChar: @"java" : 0];
+        NSLog (@"----TWO CHAR----");
+        NSLog (@"%@", twoCharString1);
+        
+        NSString *twoCharString2 = [TwoChar TwoChar: @"java" : 2];
+        NSLog (@"%@", twoCharString2);
+
+        NSString *twoCharString3 = [TwoChar TwoChar: @"java" : 3];
+        NSLog (@"%@", twoCharString3);
+        
+        
+//============================================================================================================
+        //Using class method
+        NSArray *biggerTwo1 = [BiggerTwo biggerTwo: @[@1, @2] : @[@3, @4]];
+        NSLog (@"----BIGGER TWO----");
+        NSLog (@"%@", biggerTwo1);
+        
+        //Using class method
+        NSArray *biggerTwo2 = [BiggerTwo biggerTwo: @[@3, @4] : @[@1, @2]];
+        NSLog (@"%@", biggerTwo2);
+        
+        //Using class method
+        NSArray *biggerTwo3 = [BiggerTwo biggerTwo: @[@1, @1] : @[@1, @2]];
+        NSLog (@"%@", biggerTwo3);
+        
+        
+//============================================================================================================
+
     }
     
     return 0;
