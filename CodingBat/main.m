@@ -58,6 +58,9 @@
 #import "LoneTeen.h"
 #import "TwoChar.h"
 #import "BiggerTwo.h"
+#import "DelDel.h"
+#import "MiddleThree.h"
+#import "MakeMiddle.h"
 
 
 
@@ -882,7 +885,49 @@ int main(int argc, const char * argv[]) {
         
         
 //============================================================================================================
-
+        DelDel *delDel1 = [DelDel new];
+        NSString *delDel1String = [delDel1 delDel: @"adelbc"];
+        NSLog (@"----DELDEL----");
+        NSLog (@"%@", delDel1String);
+        
+        DelDel *delDel2 = [DelDel new];
+        NSString *delDel2String = [delDel2 delDel: @"adelHello"];
+        NSLog (@"%@", delDel2String);
+        
+        DelDel *delDel3 = [DelDel new];
+        NSString *delDel3String = [delDel3 delDel: @"adedbc"];
+        NSLog (@"%@", delDel3String);
+        
+        
+//===========================================================================================================
+        NSString *middleThree1 = [MiddleThree middleThree: @"Candy"];
+        NSLog (@"----MIDDLE THREE----");
+        NSLog (@"%@", middleThree1);
+        
+        NSString *middleThree2 = [MiddleThree middleThree: @"and"];
+        NSLog (@"%@", middleThree2);
+        
+        NSString *middleThree3 = [MiddleThree middleThree: @"solving"];
+        NSLog (@"%@", middleThree3);
+        
+        
+//===========================================================================================================
+        MakeMiddle *makeMiddle1 = [[MakeMiddle alloc] init];
+        NSArray *makeMiddle1Array = [makeMiddle1 makeMiddle: @[@1, @2, @3, @4]];
+        NSLog (@"----MAKE MIDDLE----");
+        NSLog (@"%@", makeMiddle1Array);
+        
+        MakeMiddle *makeMiddle2 = [[MakeMiddle alloc] init];
+        NSArray *makeMiddle2Array = [makeMiddle2 makeMiddle: @[@7, @1, @2, @3, @4, @9]];
+        NSLog (@"%@", makeMiddle2Array);
+        
+        MakeMiddle *makeMiddle3 = [[MakeMiddle alloc] init];
+        NSArray *makeMiddle3Array = [makeMiddle3 makeMiddle: @[@1, @2]];
+        NSLog (@"%@", makeMiddle3Array);
+        
+        
+//============================================================================================================
+        
     }
     
     return 0;
