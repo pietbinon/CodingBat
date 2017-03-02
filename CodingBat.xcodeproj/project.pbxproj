@@ -25,6 +25,10 @@
 		7729659D1E427E2100B57C43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7729659C1E427E2100B57C43 /* main.m */; };
 		772965A51E427E3800B57C43 /* SleepIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 772965A41E427E3800B57C43 /* SleepIn.m */; };
 		772965A81E4285D700B57C43 /* MonkeyTrouble.m in Sources */ = {isa = PBXBuildFile; fileRef = 772965A71E4285D700B57C43 /* MonkeyTrouble.m */; };
+		7740F7BB1E68866200A83F3E /* MixStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7740F7BA1E68866200A83F3E /* MixStart.m */; };
+		7740F7BE1E68890000A83F3E /* HasBad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7740F7BD1E68890000A83F3E /* HasBad.m */; };
+		7740F7C11E688C5D00A83F3E /* PlusTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7740F7C01E688C5D00A83F3E /* PlusTwo.m */; };
+		7740F7C41E688E2400A83F3E /* OrderingArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 7740F7C31E688E2400A83F3E /* OrderingArray.m */; };
 		774D4B7E1E44F8D60075CFCA /* ParrotTrouble.m in Sources */ = {isa = PBXBuildFile; fileRef = 774D4B7D1E44F8D60075CFCA /* ParrotTrouble.m */; };
 		774D4B811E44FCE60075CFCA /* MakeTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 774D4B801E44FCE60075CFCA /* MakeTags.m */; };
 		774D4B841E4500920075CFCA /* MakePi.m in Sources */ = {isa = PBXBuildFile; fileRef = 774D4B831E4500920075CFCA /* MakePi.m */; };
@@ -113,6 +117,14 @@
 		772965A41E427E3800B57C43 /* SleepIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepIn.m; sourceTree = "<group>"; };
 		772965A61E4285D700B57C43 /* MonkeyTrouble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonkeyTrouble.h; sourceTree = "<group>"; };
 		772965A71E4285D700B57C43 /* MonkeyTrouble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonkeyTrouble.m; sourceTree = "<group>"; };
+		7740F7B91E68866200A83F3E /* MixStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixStart.h; sourceTree = "<group>"; };
+		7740F7BA1E68866200A83F3E /* MixStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixStart.m; sourceTree = "<group>"; };
+		7740F7BC1E68890000A83F3E /* HasBad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HasBad.h; sourceTree = "<group>"; };
+		7740F7BD1E68890000A83F3E /* HasBad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HasBad.m; sourceTree = "<group>"; };
+		7740F7BF1E688C5D00A83F3E /* PlusTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlusTwo.h; sourceTree = "<group>"; };
+		7740F7C01E688C5D00A83F3E /* PlusTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlusTwo.m; sourceTree = "<group>"; };
+		7740F7C21E688E2400A83F3E /* OrderingArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderingArray.h; sourceTree = "<group>"; };
+		7740F7C31E688E2400A83F3E /* OrderingArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderingArray.m; sourceTree = "<group>"; };
 		774D4B7C1E44F8D60075CFCA /* ParrotTrouble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParrotTrouble.h; sourceTree = "<group>"; };
 		774D4B7D1E44F8D60075CFCA /* ParrotTrouble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParrotTrouble.m; sourceTree = "<group>"; };
 		774D4B7F1E44FCE60075CFCA /* MakeTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeTags.h; sourceTree = "<group>"; };
@@ -328,6 +340,14 @@
 				779C69B51E64951F00F56205 /* MiddleThree.m */,
 				779C69B71E64984300F56205 /* MakeMiddle.h */,
 				779C69B81E64984300F56205 /* MakeMiddle.m */,
+				7740F7B91E68866200A83F3E /* MixStart.h */,
+				7740F7BA1E68866200A83F3E /* MixStart.m */,
+				7740F7BC1E68890000A83F3E /* HasBad.h */,
+				7740F7BD1E68890000A83F3E /* HasBad.m */,
+				7740F7BF1E688C5D00A83F3E /* PlusTwo.h */,
+				7740F7C01E688C5D00A83F3E /* PlusTwo.m */,
+				7740F7C21E688E2400A83F3E /* OrderingArray.h */,
+				7740F7C31E688E2400A83F3E /* OrderingArray.m */,
 			);
 			path = CodingBat;
 			sourceTree = "<group>";
@@ -398,6 +418,7 @@
 				779C69B91E64984300F56205 /* MakeMiddle.m in Sources */,
 				7705D8EB1E57694500BFC8E9 /* No23.m in Sources */,
 				772139321E4CC94800E47E6E /* NotString.m in Sources */,
+				7740F7BB1E68866200A83F3E /* MixStart.m in Sources */,
 				772965A51E427E3800B57C43 /* SleepIn.m in Sources */,
 				779C69B61E64951F00F56205 /* MiddleThree.m in Sources */,
 				772139351E4CD1FC00E47E6E /* FirstHalf.m in Sources */,
@@ -409,11 +430,13 @@
 				7782B5581E560E2800E8FA99 /* Or35.m in Sources */,
 				77088CDE1E4B861C00C9A811 /* FirstTwo.m in Sources */,
 				77867CC71E4A322C001E04B7 /* Makes10.m in Sources */,
+				7740F7C41E688E2400A83F3E /* OrderingArray.m in Sources */,
 				7709BDF11E5CA7F40061090A /* MiddleTwo.m in Sources */,
 				779205681E5B439700361D54 /* MakeLast.m in Sources */,
 				77E657691E54CD0D0055EB5B /* MakeEnds.m in Sources */,
 				774D4B811E44FCE60075CFCA /* MakeTags.m in Sources */,
 				770E6C531E5F4F4E00E0A9FF /* Start1.m in Sources */,
+				7740F7BE1E68890000A83F3E /* HasBad.m in Sources */,
 				7709BDF41E5CAB0C0061090A /* Double23.m in Sources */,
 				77D70F091E60A6C900D5F8F1 /* BiggerTwo.m in Sources */,
 				77088CDB1E4B82A300C9A811 /* PosNeg.m in Sources */,
@@ -425,6 +448,7 @@
 				77E657631E54C6350055EB5B /* BackAround.m in Sources */,
 				7705D8E51E5761E500BFC8E9 /* Front22.m in Sources */,
 				77A623A81E52196100AD8564 /* ComboString.m in Sources */,
+				7740F7C11E688C5D00A83F3E /* PlusTwo.m in Sources */,
 				779205651E5B3FBC00361D54 /* WithoutEnd2.m in Sources */,
 				7784CF371E43945400F45998 /* StringTimes.m in Sources */,
 				77BCF8571E4E350E00612BAD /* MaxEnd3.m in Sources */,

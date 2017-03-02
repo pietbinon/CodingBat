@@ -61,6 +61,10 @@
 #import "DelDel.h"
 #import "MiddleThree.h"
 #import "MakeMiddle.h"
+#import "MixStart.h"
+#import "HasBad.h"
+#import "PlusTwo.h"
+#import "OrderingArray.h"
 
 
 
@@ -927,7 +931,52 @@ int main(int argc, const char * argv[]) {
         
         
 //============================================================================================================
+        BOOL mixStart1 = [MixStart mixStart: @"mix snacks"];
+        NSLog (@"----MIX START----");
+        NSLog (@"%s", mixStart1 ? "YES" : "NO");
         
+        BOOL mixStart2 = [MixStart mixStart: @"pix snacks"];
+        NSLog (@"%s", mixStart2 ? "YES" : "NO");
+        
+        BOOL mixStart3 = [MixStart mixStart: @"piz snacks"];
+        NSLog (@"%s", mixStart3 ? "YES" : "NO");
+        
+        BOOL mixStart4 = [MixStart mixStart: @"9ix snacks"];
+        NSLog (@"%s", mixStart4 ? "YES" : "NO");
+        
+        
+//============================================================================================================
+        HasBad *hasBad1 = [HasBad new];
+        BOOL hasBad1Bool = [hasBad1 hasBad: @"badxx"];
+        NSLog (@"----HAS BAD----");
+        NSLog (@"%s", hasBad1Bool ? "YES" : "NO");
+        
+        HasBad *hasBad2 = [HasBad new];
+        BOOL hasBad2Bool = [hasBad2 hasBad: @"xbadxx"];
+        NSLog (@"%s", hasBad2Bool ? "YES" : "NO");
+        
+        HasBad *hasBad3 = [HasBad new];
+        BOOL hasBad3Bool = [hasBad3 hasBad: @"xxbadxx"];
+        NSLog (@"%s", hasBad3Bool ? "YES" : "NO");
+        
+        
+//============================================================================================================
+        NSArray *newArray1PlusTwo = [PlusTwo plusTwo: @[@1, @2] : @[@3, @4]];
+        NSLog (@"----PLUS TWO----");
+        NSLog (@"%@", newArray1PlusTwo);
+        
+        NSArray *newArray2PlusTwo = [PlusTwo plusTwo: @[@4, @4] : @[@2, @2]];
+        NSLog (@"%@", newArray2PlusTwo);
+        
+        NSArray *newArray3PlusTwo = [PlusTwo plusTwo: @[@9, @2] : @[@3, @4]];
+        NSLog (@"%@", newArray3PlusTwo);
+        
+        
+//============================================================================================================
+        NSArray *orderingArrayReturnedArray1 = [OrderingArray orderingArray: @[@6, @7, @3, @4, @5]];
+        NSLog (@"----ORDERING ARRAY----");
+        NSLog (@"%@", orderingArrayReturnedArray1);
+
     }
     
     return 0;
