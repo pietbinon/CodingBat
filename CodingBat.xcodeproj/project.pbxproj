@@ -19,6 +19,9 @@
 		770E6C4D1E5F454600E0A9FF /* HasTeen.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E6C4C1E5F454600E0A9FF /* HasTeen.m */; };
 		770E6C501E5F4B6500E0A9FF /* NTwice.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E6C4F1E5F4B6500E0A9FF /* NTwice.m */; };
 		770E6C531E5F4F4E00E0A9FF /* Start1.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E6C521E5F4F4E00E0A9FF /* Start1.m */; };
+		7711181A1E69DD04003B84D0 /* StartOz.m in Sources */ = {isa = PBXBuildFile; fileRef = 771118191E69DD04003B84D0 /* StartOz.m */; };
+		7711181D1E69E247003B84D0 /* AtFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7711181C1E69E247003B84D0 /* AtFirst.m */; };
+		771118201E69E5AD003B84D0 /* SwapEnds.m in Sources */ = {isa = PBXBuildFile; fileRef = 7711181F1E69E5AD003B84D0 /* SwapEnds.m */; };
 		772139321E4CC94800E47E6E /* NotString.m in Sources */ = {isa = PBXBuildFile; fileRef = 772139311E4CC94800E47E6E /* NotString.m */; };
 		772139351E4CD1FC00E47E6E /* FirstHalf.m in Sources */ = {isa = PBXBuildFile; fileRef = 772139341E4CD1FC00E47E6E /* FirstHalf.m */; };
 		772139381E4CD46A00E47E6E /* Reverse3.m in Sources */ = {isa = PBXBuildFile; fileRef = 772139371E4CD46A00E47E6E /* Reverse3.m */; };
@@ -105,6 +108,12 @@
 		770E6C4F1E5F4B6500E0A9FF /* NTwice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTwice.m; sourceTree = "<group>"; };
 		770E6C511E5F4F4E00E0A9FF /* Start1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Start1.h; sourceTree = "<group>"; };
 		770E6C521E5F4F4E00E0A9FF /* Start1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Start1.m; sourceTree = "<group>"; };
+		771118181E69DD04003B84D0 /* StartOz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartOz.h; sourceTree = "<group>"; };
+		771118191E69DD04003B84D0 /* StartOz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartOz.m; sourceTree = "<group>"; };
+		7711181B1E69E247003B84D0 /* AtFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtFirst.h; sourceTree = "<group>"; };
+		7711181C1E69E247003B84D0 /* AtFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtFirst.m; sourceTree = "<group>"; };
+		7711181E1E69E5AD003B84D0 /* SwapEnds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwapEnds.h; sourceTree = "<group>"; };
+		7711181F1E69E5AD003B84D0 /* SwapEnds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwapEnds.m; sourceTree = "<group>"; };
 		772139301E4CC94800E47E6E /* NotString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotString.h; sourceTree = "<group>"; };
 		772139311E4CC94800E47E6E /* NotString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotString.m; sourceTree = "<group>"; };
 		772139331E4CD1FC00E47E6E /* FirstHalf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstHalf.h; sourceTree = "<group>"; };
@@ -348,6 +357,12 @@
 				7740F7C01E688C5D00A83F3E /* PlusTwo.m */,
 				7740F7C21E688E2400A83F3E /* OrderingArray.h */,
 				7740F7C31E688E2400A83F3E /* OrderingArray.m */,
+				771118181E69DD04003B84D0 /* StartOz.h */,
+				771118191E69DD04003B84D0 /* StartOz.m */,
+				7711181B1E69E247003B84D0 /* AtFirst.h */,
+				7711181C1E69E247003B84D0 /* AtFirst.m */,
+				7711181E1E69E5AD003B84D0 /* SwapEnds.h */,
+				7711181F1E69E5AD003B84D0 /* SwapEnds.m */,
 			);
 			path = CodingBat;
 			sourceTree = "<group>";
@@ -444,6 +459,7 @@
 				77BCF8541E4E2DC600612BAD /* WithoutEnd.m in Sources */,
 				77A623AB1E521E7600AD8564 /* Sum2.m in Sources */,
 				779A90291E5374A800D1AD06 /* NonStart.m in Sources */,
+				7711181A1E69DD04003B84D0 /* StartOz.m in Sources */,
 				7775C1151E5DF1DA00BA8430 /* In1020.m in Sources */,
 				77E657631E54C6350055EB5B /* BackAround.m in Sources */,
 				7705D8E51E5761E500BFC8E9 /* Front22.m in Sources */,
@@ -462,7 +478,9 @@
 				779205621E5B3CAB00361D54 /* StartHi.m in Sources */,
 				7709BDEE1E5CA3230061090A /* IcyHot.m in Sources */,
 				7782B55B1E56102700E8FA99 /* Right2.m in Sources */,
+				771118201E69E5AD003B84D0 /* SwapEnds.m in Sources */,
 				7784CF3A1E439D4900F45998 /* FirstLast6.m in Sources */,
+				7711181D1E69E247003B84D0 /* AtFirst.m in Sources */,
 				779A902C1E53781400D1AD06 /* MiddleWay.m in Sources */,
 				779C69B31E6491D700F56205 /* DelDel.m in Sources */,
 				770E6C501E5F4B6500E0A9FF /* NTwice.m in Sources */,

@@ -65,6 +65,9 @@
 #import "HasBad.h"
 #import "PlusTwo.h"
 #import "OrderingArray.h"
+#import "StartOz.h"
+#import "AtFirst.h"
+#import "SwapEnds.h"
 
 
 
@@ -976,7 +979,53 @@ int main(int argc, const char * argv[]) {
         NSArray *orderingArrayReturnedArray1 = [OrderingArray orderingArray: @[@6, @7, @3, @4, @5]];
         NSLog (@"----ORDERING ARRAY----");
         NSLog (@"%@", orderingArrayReturnedArray1);
-
+        
+        
+//============================================================================================================
+        NSString *startOz1 = [StartOz startOz: @"ozymandias"];
+        NSLog (@"----START OZ----");
+        NSLog (@"%@", startOz1);
+        
+        NSString *startOz2 = [StartOz startOz: @"bzoo"];
+        NSLog (@"%@", startOz2);
+        
+        NSString *startOz3 = [StartOz startOz: @"oxx"];
+        NSLog (@"%@", startOz3);
+        
+        
+//============================================================================================================
+        AtFirst *atFirst1 = [AtFirst new];
+        NSString *atFirst1String = [atFirst1 atFirst: @"hello"];
+        NSLog (@"----AT FIRST----");
+        NSLog (@"%@", atFirst1String);
+        
+        AtFirst *atFirst2 = [AtFirst new];
+        NSString *atFirst2String = [atFirst2 atFirst: @"hi"];
+        NSLog (@"%@", atFirst2String);
+        
+        AtFirst *atFirst3 = [AtFirst new];
+        NSString *atFirst3String = [atFirst3 atFirst: @"h"];
+        NSLog (@"%@", atFirst3String);
+        
+        
+//============================================================================================================
+        SwapEnds *swapEnds1 = [[SwapEnds alloc] init];
+        NSArray *swapEnds1Array = [swapEnds1 swapEnds: @[@1, @2, @3, @4]];
+        NSLog (@"----SWAP ENDS----");
+        NSLog (@"%@", swapEnds1Array);
+        
+        SwapEnds *swapEnds2 = [[SwapEnds alloc] init];
+        NSArray *swapEnds2Array = [swapEnds2 swapEnds: @[@1, @2, @3]];
+        NSLog (@"%@", swapEnds2Array);
+        
+        SwapEnds *swapEnds3 = [[SwapEnds alloc] init];
+        NSArray *swapEnds3Array = [swapEnds3 swapEnds: @[@8, @6, @7, @9, @5]];
+        NSLog (@"%@", swapEnds3Array);
+        
+        
+//=============================================================================================================
+        
+        
     }
     
     return 0;
